@@ -1,7 +1,7 @@
 export const Seccion2 = () => {
     return (
         <section className="bg-[#123337] flex flex-col items-center mx-auto max-w-full min-h-[20vh] p-10 text-white relative w-[1728px] h-[1226px] top-[1114px]">
-            /* Título */
+            {/* Título */}
             <div className="text-center max-w-2xl mb-12">
                 <h1 className="font-Oswald font-semibold text-4xl leading-[64px] uppercase mb-6">
                     ¿TAMBIÉN SIENTES QUE EL MUNDO AVANZA MÁS RÁPIDO QUE TÚ?
@@ -13,14 +13,14 @@ export const Seccion2 = () => {
                     Gracias al deporte entendimos los retos del desarrollo humano actual
                 </p>
             </div>
-            /* Contenido principal */
+            {/* Contenido principal */}
             <div className="flex items-start justify-between w-full mt-6 relative ">
-                /* Sección deportiva */
-                <div className="w-[50%] flex flex-col img-justify-items-start ml-auto">
-                    <h2 className="text-2xl font-bold mb-6 text-center">ALTO RENDIMIENTO DEPORTIVO</h2>
+                {/* Sección deportiva */}
+                <div className="w-[50%] flex flex-col justify-items-start ml-auto">
+                    <h2 className="text-2xl font-bold mb-10 text-stard">ALTO RENDIMIENTO DEPORTIVO</h2>
                     <img src="public/img6.png" className="w-787 max-w-[400px] h-auto" alt="Atleta" />
                 </div>
-                /* Tabla comparativa con íconos */
+                {/* Tabla comparativa con íconos */}
                 <div className="w-[120%] -mx-10 ">
                         <div className="space-y-0.5">
                             {/* Item 1 */}
@@ -35,7 +35,7 @@ export const Seccion2 = () => {
                                     <img src="public/Vector.png" className="w-6 h-6" />
                                 </div>
                             </div>
-                            /* Item 2 */
+                            {/* Item 2 */}
                             <div className="grid grid-cols-3 divide-x-4 divide-solid divide-[#DFF4F3] bg-Gray bg-opacity-10 rounded-[40px] border border-white border-opacity-20">
                                 <div className="p-4 flex justify-center items-center">
                                     <img src="public/Vector.png" className="w-6 h-6" />
@@ -47,7 +47,7 @@ export const Seccion2 = () => {
                                     <img src="public/Vector.png" className="w-6 h-6" />
                                 </div>
                             </div>
-                            /* Item 3 */
+                            {/* Item 3 */}
                             <div className="grid grid-cols-3 divide-x-4 divide-solid divide-[#DFF4F3] bg-Gray bg-opacity-10 rounded-[20px] border border-white border-opacity-20">
                                 <div className="p-4 flex justify-center items-center">
                                     <img src="public/Vector.png" className="w-6 h-6" />
@@ -59,7 +59,7 @@ export const Seccion2 = () => {
                                     <img src="public/Vector.png" className="w-6 h-6" />
                                 </div>
                             </div>
-                            /* Item 4 */
+                            {/* Item 4 */}
                             <div className="grid grid-cols-3 divide-x-4 divide-solid divide-[#DFF4F3] bg-Gray bg-opacity-10 rounded-[20px] border border-white border-opacity-20">
                                 <div className="p-4 flex justify-center items-center">
                                     <img src="public/Vector.png" className="w-6 h-6" />
@@ -71,7 +71,7 @@ export const Seccion2 = () => {
                                     <img src="public/Vector.png" className="w-6 h-6" />
                                 </div>
                             </div>
-                            /* Item 5 */
+                            {/* Item 5 */}
                             <div className="grid grid-cols-3 divide-x-4 divide-solid divide-[#DFF4F3] bg-Gray bg-opacity-10 rounded-[20px] border border-white border-opacity-20">
                                 <div className="p-4 flex justify-center items-center">
                                     <img src="public/Vector.png" className="w-6 h-6" />
@@ -85,13 +85,13 @@ export const Seccion2 = () => {
                             </div>
                         </div>
                     </div>
-                /* Sección empresarial */
-                <div className="w-2/4 flex flex-col items-end ">
+                {/* Sección empresarial */}
+                <div className="w-[50%] flex flex-col img-justify-items-end">
                     <h2 className="text-2xl font-bold mb-6 text-center">ALTO RENDIMIENTO EMPRESARIAL</h2>
-                    <img src="public/img5.png" className="max-w-[400px] h-auto ml-auto"  alt="Mujer empresaria" />
-                </div>
-            </div>
-            /* Botón */
+                    <img src="public/img5.png" className="w-952 max-w-[400px] h-auto"  alt="Mujer empresaria" />
+                  </div>  
+                </div> 
+            {/* Botón */}
             <div className="mt-6">
                 <button className="bg-pink-500 text-white px-8 py-4 rounded-lg font-bold text-lg shadow-md hover:bg-pink-600 transition-colors">
                     Descargar guía para la gestión del estrés
