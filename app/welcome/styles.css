@@ -1,0 +1,34 @@
+@keyframes slide{
+    from {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
+
+.slider {
+    overflow: hidden;
+    padding: 100px 0;
+    white-space: nowrap;    
+    position: relative;
+}
+
+.slide-track{
+    display: flex;
+    width: calc(200%); /* Duplicamos el contenido */
+    animation: slide 10s linear infinite;
+
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 150px; /* Ajusta el tamaño según necesidad */
+    padding: 10px;
+}
+
+.slide-track img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
