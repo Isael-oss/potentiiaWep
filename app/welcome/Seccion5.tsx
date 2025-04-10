@@ -9,8 +9,8 @@ export const Seccion5 = () => {
             <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Una serie de protocolos de entrenamiento prácticos, sostenibles y escalables, que te dan el poder de optimizar tu salud, bienestar y rendimiento.
             </p>
-            <div className="w-24 h-1 bg-gray-300 mx-auto mt-8"></div>
           </div>
+          
           <div className="relative w-full max-w-10xl mx- p-4">
               
               <img src="public/Img7.png" alt="Fondo" className="w-full rounded-lg" />

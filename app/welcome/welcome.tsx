@@ -9,6 +9,7 @@ import { Seccion5 } from "./Seccion5";
 import { Seccion6 } from "./Seccion6";
 import { CarrusellSeccion7 } from "./CarrusellSeccion7";
 import { Seccion8 } from "./Seccion8";
+import { Seccion9Ultima } from "./Seccion9Ultima";
 
 
 export function Welcome() {
@@ -25,6 +26,7 @@ export function Welcome() {
       <Seccion6 />
       <CarrusellSeccion7/>
       <Seccion8 />
+      <Seccion9Ultima />
       
     </main>
   );

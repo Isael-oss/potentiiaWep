@@ -1,3 +1,4 @@
+import { PrimaryButton } from "./Hero";
 export const Seccion2 = () => {
     return (
         <section className="bg-[#123337] flex flex-col items-center mx-aunto max-w-full min-h-[0vh] p-4 text-white relative ">
@@ -92,10 +93,8 @@ export const Seccion2 = () => {
                     className="w-952 max-w-[400px] h-auto"  alt="Mujer empresaria" />
                   </div>  
                 </div> 
-            <div className="mt-6">
-                <button className="bg-pink-500 text-white px-8 py-4 rounded-lg font-bold text-lg shadow-md hover:bg-pink-600 transition-colors">
-                    Descargar guía para la gestión del estrés
-                </button>
+                <div className="mt-6">
+                <PrimaryButton text="Descargar guía para la gestión del estrés"/>
             </div>
         </section>
     );
