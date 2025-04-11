@@ -1,4 +1,5 @@
-import { PrimaryButton } from "./Hero";
+import { PrimaryButton } from "./Hero"; 
+
 export const Seccion2 = () => {
     return (
         <section className="bg-[#123337] flex flex-col items-center mx-aunto max-w-full min-h-[0vh] p-4 text-white relative ">
@@ -15,14 +16,14 @@ export const Seccion2 = () => {
                 </p>
             </div>
        
-            <div className="flex items-start justify-between w-full mt-6 relative ">
+            <div className="flex flex-col lg:flex-row items-start justify-between w-full mt-6 relative">
                
-                <div className="w-[50%] flex flex-col justify-items-start ml-auto">
+                <div className="w-[50%] flex flex-col justify-items-start ml-auto hidden lg:flex">
                     <h2 className="text-2xl font-bold mb-10 text-stard">ALTO RENDIMIENTO DEPORTIVO</h2>
                     <img src="public/img6.png" className="w-787 max-w-[400px] h-auto" alt="Atleta" />
                 </div>
                 
-                <div className="w-[120%] -mx-10 ">
+                <div className="w-[120%] -mx-10">
                         <div className="space-y-0.5">
    
                             <div className="grid grid-cols-3 divide-x-4 divide-solid divide-[#DFF4F3] bg-Gray bg-opacity-10 rounded-[20px] border border-white border-opacity-20">
@@ -87,7 +88,7 @@ export const Seccion2 = () => {
                         </div>
                     </div>
               
-                <div className="w-[50%] flex flex-col img-justify-items-end">
+                <div className="w-[50%] flex flex-col img-justify-items-end hidden lg:flex">
                     <h2 className="text-2xl font-bold mb-6 text-center">ALTO RENDIMIENTO EMPRESARIAL</h2>
                     <img src="public/img5.png" 
                     className="w-952 max-w-[400px] h-auto"  alt="Mujer empresaria" />
