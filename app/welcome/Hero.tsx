@@ -1,7 +1,7 @@
 
 export const Hero = () => {
   return (
-    <section className="flex flex-col-reverse lg:flex-row items-center justify-between max-w-7xl mx-auto px-4 py-12 gap-10 min-h-[70vh]">
+    <section className="flex flex-col-reverse lg:flex-row items-center justify-between max-w-7xl mx-auto px-4 py-12 gap-10 min-h-[70vh]  max-w-full">
     
     <div className="w-full lg:w-1/2">
       <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold uppercase leading-tight text-center lg:text-left">

@@ -2,7 +2,7 @@ import { PrimaryButton } from "./Hero";
 
 export const Seccion9Ultima = () => {
     return (
-        <section className="bg-[#123337] text-white py-12 px-6 md:px-12 lg:px-20">
+        <section className="bg-[#123337] text-white py-12 px-6 md:px-12 lg:px-20  max-w-full">
             <div className="flex flex-col lg:flex-row flex-wrap gap-10 justify-between">
                 
                 <div className="flex-shrink-0">
